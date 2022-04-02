@@ -7,29 +7,34 @@
     <meta name="keywords" content="plumbus, chuvashiya, home, useful" >
     <meta name="descrition" content="Плюмбусы! Каждый увожающий себя домохозяин имеет дома плюбус. Теперь и в республике Чувашия!!!">
     <title>Лучшие плюмбусы в республике Чувашия.com</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="xnIt0CtJl2Y.jpg" width="200">
-    <h1>Штандаров Юрий</h1>
+<div class="container">
+    <div class="info">
+    <img src="xnIt0CtJl2Y.jpg" alt="Штандаров Юрий" class="avatar">
+     <div class="card name"><h1>Штандаров Юрий</h1>
     <p>Я основатель программы по продаже <strong>плюмбусов</strong> в республике <strong>Чувашия</strong></p>
     <p>Я всей душой люблю <em><strong>плюмбусы</strong> и <strong>Чебоксары</strong></em></p>
-    <hr>
-    Мой вк и ютаб 
+     </div>
+    </div>
+    <div class="card links"> Мой вк и ютаб 
     <br>
     <a href="https://vk.com/laguha339" target="_blank" > вот </a>
     и
     <a href="https://www.youtube.com/channel/UCOFQv2qaJQiQR72nvHIgusA" target="_blank" > вот </a>
-    <hr>
-    <h2>Мои хобби</h2>
-    <ol>
+ </div>
+    <div class="card hobby"><h2>Мои хобби</h2>
+    <ol class="list">
         <li>Игра на гитаре</li>
         <li>Фотография</li>
         <li>3д моделлирование</li>
         <li>Программирование</li>
     </ol>
-    <hr>
+ </div>
+    <div class=" card job">
     <h2>Опыт работы</h2>
-    <table width="300">
+    <table width="300" class="table">
         <thead>
             <tr>
                 <th>Название</th>
@@ -55,25 +60,29 @@
             </tr>
         </tbody>
     </table>
-    <hr>
-    <h2>Связаться со мной</h2>
-    <form>
-        <div>
+ </div>
+    <div class="card message">
+   
+    <form class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-group">
             <label for="name"><strong>Ваше имя:</strong></label>
             <input type="text" id="name" placeholder="Введите имя">
         </div>
-        <div>
+        
+        <div class="form-group">
             <label for="email"><strong>Ваш email:</strong></label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
-        <div>
+    </div>
+        <div class="form-group">
             <label for="message"><strong>Ваше сообщение:</strong></label>
-            <br>
             <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение"></textarea>
         </div>
-        <div>
-            <button type="submit"><Strong>Отправить!</Strong></button>
+        <div class="form-group">
+            <button type="submit" class="btn"><Strong>Отправить!</Strong></button>
         </div>
     </form>
+</div>
 </body>
 </html>

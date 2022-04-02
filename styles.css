@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+a:active{
+    color: darkblue;
+}
+
+a:visited{
+    color: darkblue;
+}
+
+.card{ 
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.avatar {
+    width: 200px;
+    border: #5c16c5 solid 2px;
+    border-radius: 40px;
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    margin: auto;
+    max-width: 750px;
+    padding-top: 30px;   
+}
+
+body{
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #a47277;
+    background: #0e0e10;
+}
+
+p {
+    font-style: oblique;
+}
+
+p strong{
+    text-decoration: underline;
+}
+
+input{
+    background: darkred;
+}
+
+textarea{
+    background: darkred;
+}
+
+.btn{
+    color: black;
+    background: #5c16c5;
+    cursor:pointer;
+    position: absolute;
+    bottom: 50px;
+}
+
+.name {
+    border: dashed 2px red;
+    background-color: darkslategray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.name p{
+    margin: 0px;
+}
+
+.links {
+    border-bottom:white 2px solid ;
+    padding: 5px;
+    border-top: white 2px solid;
+    border-top-right-radius: 50px ;
+    border-bottom-right-radius:50px ;
+    border-right: 2px white solid;
+}
+
+
+.job {
+    border-bottom:white 2px solid ;
+    padding: 5px;
+    border-top: white 2px solid;
+    border-top-right-radius: 50px ;
+    border-bottom-right-radius:50px ;
+    border-right: 2px white solid;
+}
+
+table td {
+    border: darkblue solid;
+    width: 0;
+    padding: 0;
+    text-align: center;
+}
+
+table td:nth-child(odd){
+    background: rgba(212, 212, 212, 0.048);
+}
+
+table td:hover{
+    background: #28282e;
+}
+
+table th {
+    padding: 0;
+}
+
+ol {
+    padding: 0;
+    padding-left: 10px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-group label{
+    display: block ;
+}
+
+.form-row, .form-group {
+    display: inline-block;
+    width: 48%;
+}
+
+.form-group:last-child{
+    margin-right: 0;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px red dashed;
+    color: bisque;
+    padding: 10px 15px 0;
+    font-family: inherit;
+}
+
+.form-group{
+    position: relative;
+}
+
+@media (max-width:650px){
+    .avatar {
+        width: 150px;
+    }
+    body {
+        font-size: 0.8rem;
+    }
+}
